@@ -15,7 +15,7 @@ jobs:
 
       - run:
           name: Run tests  # 运行测试
-          command: pytest carpet_test/carpet_test.py
+          command: pytest carpet_origin/carpet_test.py
 
 workflows:
   version: 2
